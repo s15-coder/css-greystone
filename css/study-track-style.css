@@ -1,0 +1,49 @@
+.study-tracks {
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.subheading {
+    text-align: center;
+    color: #7B2576;
+}
+
+.study-track__description {
+    margin: 30px auto;
+    text-align: center;
+    color: black;
+    width: 50%;
+    text-align: center;
+
+}
+
+.study-tracks__items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.study-tracks__items>div {
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+}
+
+.study-tracks__items>div>img {
+    border-radius: 100px;
+    background-color: #7B2576;
+    width: 8vw;
+    height: 8vw;
+
+    object-fit: cover;
+}
+
+h3 {
+    color: #7B2576;
+
+}
+
+.divider {
+    margin: 20px auto;
+    width: 5vw;
+    border: 1px solid #9f3e9b;
+}
