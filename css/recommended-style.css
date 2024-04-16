@@ -1,0 +1,50 @@
+.recommended {
+    padding: 50px;
+    background-color: #F9F7FA;
+}
+
+.recommended__reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(200, 197, 197);
+    background-color: #FFFFFF;
+    width: 25%;
+}
+
+
+.review h5,
+.review p {
+    margin: 6px 0;
+    text-align: end;
+}
+
+.review p {
+    color: rgb(60, 59, 59);
+    font-style: italic;
+}
+
+.review h5 {
+    color: purple;
+}
+
+.review span {
+    font-size: 14px;
+    display: block;
+}
+
+.apostrophe {
+    width: 100%;
+    top: -30px;
+    left: 0;
+    text-align: center;
+    font-size: 100px !important;
+    color: purple;
+    position: absolute;
+}
