@@ -1,0 +1,58 @@
+.learning-content {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.learning-content__img {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.learning-content__img>img {
+    margin: 40px 0;
+    width: 350px;
+    height: 350px;
+}
+
+.learning-content__right {
+    flex: 4;
+    width: 50%;
+}
+
+.learning-content__right>p {
+    margin: 30px 30px 20px;
+    font-size: 20px;
+}
+
+.learning-content__right_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learning-content__right_items img {
+    width: 100px;
+    height: 100px;
+    padding: 20px 10px;
+}
+
+.learning-content__right_items>div {
+    width: 35%;
+    margin: 20px 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.learning-content__right_items>div>p {
+    margin: 20px;
+    width: 200px;
+}
+
+.learning-content p {
+    color: white;
+}

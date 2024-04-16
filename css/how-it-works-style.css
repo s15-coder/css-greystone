@@ -1,0 +1,52 @@
+.how-it-works {
+    padding: 70px;
+    background-color: white;
+}
+
+.how-it-works img {
+    padding: 20px;
+    border-radius: 300px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(purple, rgb(229, 18, 236));
+}
+
+.how-it-works__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.how-it-works__container>div {
+    width: 14vw;
+}
+
+.how-it-works__container span {
+    align-items: center;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 300px;
+    background-color: white;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -20px;
+    right: 30px;
+}
+
+.how-it-works__container_image {
+    margin: 20px 20px 0px 20px;
+    width: 200px;
+    position: relative;
+}
+
+.how-it-works__container p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    border: 3px dotted purple;
+    padding: 10px;
+    margin: 0px;
+}

@@ -1,0 +1,19 @@
+.our-robots {
+    padding: 30px 20px;
+    background-image: linear-gradient(#ffffff 1%, #7B2576 99%);
+}
+
+.our-robots__container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.our-robots__container img {
+    margin: 20px;
+    width: 25vw;
+    height: 15vw;
+    object-fit: cover;
+    background-color: #3E0E59;
+
+}

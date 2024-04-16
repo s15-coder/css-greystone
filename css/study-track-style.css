@@ -1,6 +1,7 @@
 .study-tracks {
     padding: 30px 20px;
     background-color: white;
+
 }
 
 .subheading {
@@ -33,7 +34,6 @@
     background-color: #7B2576;
     width: 8vw;
     height: 8vw;
-
     object-fit: cover;
 }
 
