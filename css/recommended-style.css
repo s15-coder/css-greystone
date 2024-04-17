@@ -48,3 +48,18 @@
     color: purple;
     position: absolute;
 }
+
+@media screen and (max-width: 600px) {
+    .recommended {
+        padding: 20px;
+    }
+
+    .recommended__reviews {
+        flex-direction: column;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+}

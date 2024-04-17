@@ -47,3 +47,24 @@ h3 {
     width: 5vw;
     border: 1px solid #9f3e9b;
 }
+
+@media screen and (max-width: 600px) {
+    .study-tracks__items {
+        display: block;
+    }
+
+    .study-track__description {
+        width: 90%;
+    }
+
+    .study-tracks__items>div {
+        width: 90%;
+    }
+
+    .study-tracks__items>div>img {
+        width: 50vw;
+        height: 50vw;
+        border-radius: 1000px;
+    }
+
+}

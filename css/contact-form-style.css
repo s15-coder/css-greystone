@@ -75,3 +75,22 @@
 .contact-form__content_right img {
     width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-form__content {
+        flex-direction: column;
+    }
+
+    .contact-form__content_left {
+        margin-right: 0;
+    }
+
+    .contact-form__content_left>div {
+        margin: 0;
+    }
+
+    .contact-form__content_right {
+        margin-top: 20px;
+    }
+
+}

@@ -16,6 +16,14 @@ footer .links li {
 
 }
 
+.links a {
+
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
 footer span {
     padding-right: 30px;
     flex: 1;
@@ -27,4 +35,39 @@ footer span {
 .social-media img {
     height: 30px;
     /* width: 30px; */
+}
+
+.social-media li {
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .links li {
+        margin: 10px 0;
+    }
+
+    footer span {
+        padding: 0;
+    }
+
+    footer .social-media {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social-media li {
+        margin: 0 10px;
+    }
+
 }

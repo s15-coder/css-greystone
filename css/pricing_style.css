@@ -43,3 +43,14 @@
     background-repeat: no-repeat;
     background-image: url(../assets/confirm.png);
 }
+
+@media screen and (max-width: 600px) {
+    .pricing__container {
+        flex-direction: column;
+    }
+
+    .pricing__container_item {
+        width: 100%;
+    }
+
+}
